@@ -30,28 +30,13 @@ text-align: center;
 
 footer {
     background-color: #1DE9B6;
- position: fixed;
+ position: absolute;
   bottom: 0;
   left: 0;
   height: 70px;
   width: 100%;
   text-align: center;
 
-}
-
-@media only screen and (max-width: 400px) {
-body {
-    margin-bottom:100px;
-}
-img {
-    width:100%;
-}
-}
-@media only screen and (max-width: 700px) {
-body {
-    margin-bottom:300px;
-    
-}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -61,7 +46,5 @@ body {
 img {
     padding:3%;
 }
-body {
-    margin-bottom:1000px;
-}
+
 }
