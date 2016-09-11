@@ -30,7 +30,7 @@ text-align: center;
 
 footer {
     background-color: #1DE9B6;
- position: absolute;
+ clear:both;
   bottom: 0;
   left: 0;
   height: 70px;
