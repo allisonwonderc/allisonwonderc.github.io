@@ -25,6 +25,11 @@ img {
 
 .col-md-12{
 text-align: center;
+margin-bottom:3%;
+    
+}
+a:hover {
+    background-color:#e9b61d;
     
 }
 
