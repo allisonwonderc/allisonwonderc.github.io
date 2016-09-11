@@ -21,9 +21,11 @@ a:hover{
 img {
     width: 100%;
     border-radius:20%;
-
 }
-
+ul {
+display:inline-block;
+list-style-type: none;
+}
 .col-md-12{
 text-align: center;
     
@@ -48,6 +50,10 @@ body {
 @media only screen and (max-width: 700px) {
 body {
     margin-bottom:200px;
+    
+}
+img {
+    width:50%;
 }
 }
 
