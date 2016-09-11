@@ -1,0 +1,64 @@
+
+header {
+    background-color: #1DE9B6;
+    text-align: center;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:link{
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.content {
+    padding-left: 10%;
+}
+img {
+    width: 100%;
+    border-radius:20%;
+
+}
+
+.col-md-12{
+text-align: center;
+    
+}
+
+footer {
+    background-color: #1DE9B6;
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 400px) {
+body {
+    margin-bottom:100px;
+}
+}
+@media only screen and (max-width: 700px) {
+body {
+    margin-bottom:200px;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+.col-md-4 {
+   padding:0 3% 0;
+}
+img {
+    padding:3%;
+}
+body {
+    margin-bottom:1000px;
+}
+}
