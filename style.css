@@ -11,6 +11,8 @@ body{
 .redacted{
     color:black;
     background-color:black;
+    font-weight:bold;
+    text-transform:uppercase;
 }
 
 a:link{
