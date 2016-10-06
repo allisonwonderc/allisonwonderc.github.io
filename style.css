@@ -8,6 +8,11 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+redacted{
+    color:black;
+    background-color:black;
+}
+
 a:link{
     color:black;
 }
