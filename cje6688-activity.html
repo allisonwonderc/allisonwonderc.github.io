@@ -24,7 +24,8 @@
   </head>
   <body>
 <header>Crime Scene at Ionivation Trade Building</header>
-<div id="content">
+<img id="placard" style = "visibility:hidden" src="https://docs.google.com/drawings/d/1DgnXjJ6Sp0lmlF0U__xjL6QV2bRKFRVD01eCkz1hSts/edit?usp=sharing" /></a>
+	<div id="content">
   <button id="start" onclick=initialize()>Start</button>
 </div>
 
@@ -66,6 +67,13 @@ function displayPrompt(){
 function moveStory() {
  i++;
  displayPrompt();
+switch(i) {
+   case 5:
+     setImageVisible("placard", visible);
+     break;
+   default:
+     break;
+         }
 }
 
 function returnCheckpoint() {
