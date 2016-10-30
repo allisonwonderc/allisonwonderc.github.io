@@ -1,4 +1,5 @@
-c1 ="<p>&quotI hope you have been well,&quot he said. &quotI need your help on a complex case. It involves computers and I know you have a knack for them.</p>" + "<button onclick=returnCheckpoint()>Tell Maxwell you don't feel qualified for the job.</button>"+"<button onclick=moveStory()>Take the offer!</button>";
+<SCRIPT LANGUAGE="JavaScript">
+ c1 ="<p>&quotI hope you have been well,&quot he said. &quotI need your help on a complex case. It involves computers and I know you have a knack for them.</p>" + "<button onclick=returnCheckpoint()>Tell Maxwell you don't feel qualified for the job.</button>"+"<button onclick=moveStory()>Take the offer!</button>";
 c2 = "<p>You meet up with Maxwell at the Ionivation Trade Building.</p>It's on the corner of 25th and Ada Ave. You don't know much about the company, but you think you've seen something on the news about how Ionivation's stock has been exponentially increasing in value over the last few months. You enter the building and a security guard stops you.<blockquote>&quotSir, where do you think you're going?&quot</blockquote><blockquote>&quotI'm here to investigate a crime scene.&quot</blockquote><blockquote>&quotCrime scene!&quot the security guard exclaims. &quotThere's no crime scene here.&quot</blockquote>"+ "<button onclick=returnCheckpoint()>&quotAren't you a little young to be a security guard?&quot.</button>"+"<button onclick=moveStory()>&quotI'm sorry for the misunderstanding. Let me see if my friend can clear this up.&quot</button>";
 c3="three";
 
@@ -29,3 +30,4 @@ function moveStory() {
 function returnCheckpoint() {
 document.getElementById("content").innerHTML = checkpoints[i];
 }
+</SCRIPT>
