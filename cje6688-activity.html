@@ -34,10 +34,11 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	  <script>
 		  c1 ="<p>&quotI hope you have been well,&quot he said. &quotI need your help on a complex case. It involves computers and I know you have a knack for them.</p>" + "<button onclick=returnCheckpoint()>Tell Maxwell you don't feel qualified for the job.</button>"+"<button onclick=moveStory()>Take the offer!</button>";
-c2="In the elevator, Maxwell fills you in on the investigation so far.<blockquote>&quotWe've already secured the scene. The company was concerned about the possibility of a defamation suit. The initial evidence collection team arrived about an hour and a half ago, so they already swept the surface of the workstation for DNA and fibers. Still, you're gonna need these.</blockquote><p>Maxwell hands you a pair of gloves.</p>"+ "<button onclick=moveStory()>&quotAre these nitrile or latex?&quot</button>"+"<button onclick=moveStory()>&quotDo you ever fill these with helium to make balloons?&quot</button>";
-c3="<p>What's great about having a friend in the field you're training in is the fact that you can ask these questions without worrying about your rookie status.</p><p>The elevator doors open. You walk down a carpeted hallway into an office and see the assembled crime scene response team.</p>"+"<button onclick=moveStory()>Continue to the crime scene.</button>";
-c4="";
-c5="";
+c2 = "<p>You meet up with Maxwell at the Ion-ivation Trade Building.</p><p>It's on the corner of 25th and Ada Ave. You don't know much about the company, but you think you've seen something on the news about how Ionivation's stock has been exponentially increasing in value over the last few months. You enter the building and a security guard stops you.</p><blockquote>&quotSir, where do you think you're going?&quot</blockquote><blockquote>&quotI'm here to investigate a crime scene.&quot</blockquote><blockquote>&quotCrime scene!&quot the security guard exclaims. &quotThere's no crime scene here.&quot</blockquote>"+ "<button onclick=returnCheckpoint()>&quotAren't you a little young to be a security guard?&quot</button>"+"<button onclick=moveStory()>&quotI'm sorry for the misunderstanding. Let me see if my friend can clear this up.&quot</button>";
+c3="<p>In the elevator, Maxwell fills you in on the investigation so far.</p><blockquote>&quotWe've already secured the scene. The company was concerned about the possibility of a defamation suit. The initial evidence collection team arrived about an hour and a half ago, so they already swept the surface of the workstation for DNA and fibers. Still, you're gonna need these.</blockquote><p>Maxwell hands you a pair of gloves.</p>"+ "<button onclick=moveStory()>&quotAre these nitrile or latex?&quot</button>"+"<button onclick=moveStory()>&quotDo you ever fill these with helium to make balloons?&quot</button>";
+c4="<p>What's great about having a friend in the field you're training in is the fact that you can ask these questions without worrying about your rookie status.</p><p>The elevator doors open. You walk down a carpeted hallway into an office and see the assembled crime scene response team.</p>"+"<button onclick=moveStory()>Continue to the crime scene.</button>";
+c5="<p>You check in with the technician in charge of the log of those going in and out of the scene. Collection and analysis is already underway. The scene is cordoned off with bright yellow crime scene tape. Object, stain, and fiber locations are marked with numbered yellow tents.</p><p>You take Maxwell's lead and begin to write notes regarding the location of computer stations, wires, peripheral devices, the state of the room.</p><p>The office is well-kempt, despite the crowd of investigators gathered there.</p>"+"<button onclick=moveStory()>Continue</button>";
+c6="<p>Maxwell gestures for you to walk with him to the east corner of the room. There is a computer workstation with a desk placard on it.</p>"+"<div class=&quotplacard&quot></div>"+ "<button onclick=returnCheckpoint()>Take a picture of your shoes</button>"+"<button onclick=moveStory()>Take a picture of the desk.</button>";
 
 cp0="<p>You go back to sleep. Nothing exciting happens.</p>" + "<button onclick=displayPrompt()>Well, that was no fun. Return to checkpoint.</button>";
 cp1="<p>&quotDarn. I guess I'll take someone else along to this crime scene.&quot</p><br>" + "<button onclick=displayPrompt()>Oh no! Return to checkpoint.</button>";
@@ -45,11 +46,12 @@ cp2="<p>While you were insulting the security guard, Maxwell headed upstairs... 
 cp3="";
 cp4="";
 cp5="";
+cp6="I feel like you should take a picture of the desk." + "<button onclick=displayPrompt()>Go back to take a picture.</button>";
 
 var initial = "<p>It's a Friday night and you're just wrapping things up at the office when your phone lights up. It's your friend Max. Answer the phone?</p>" + "<button onclick=moveStory()>Yes</button>" + "<button onclick=returnCheckpoint()>No</button>";
 
-var chapters = new Array (initial, c1, c2, c3, c4, c5);
-var checkpoints = new Array (cp0, cp1, cp2, cp3, cp4, cp5);
+var chapters = new Array (initial, c1, c2, c3, c4, c5, c6);
+var checkpoints = new Array (cp0, cp1, cp2, cp3, cp4, cp5, cp6);
 
 function initialize(){
 document.getElementById("content").innerHTML = initial; 
