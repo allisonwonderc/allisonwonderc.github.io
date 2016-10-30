@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CJE6688 Activity</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel="icon" type="image/png" href="assets/favicon.png" />
+    <!-- Bootstrap -->
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel=stylesheet type=text/css href="activity.css">
+  </head>
+  <body>
+<h1>Nancy CPU</h1><h2>and the Mystery of the Lost Thumb Drive</h2>
+<div id="body">
+<p>It's a Friday night and you're just wrapping things up at the office when your phone lights up. It's your best friend Max. Answer the phone?</p>
+  <button onclick=moveStory()>Yes</button><button onclick=returnCheckpoint()>No</button>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+ </body>
+
+ <footer>
+<script>
+c1 ="<p>&quotI hope you have been well,&quot he said. &quotI need your help on a complex case. It involves computers and I know you have a knack for them.</p>" + "<button>Laugh at Max</button><button onclick=moveStory()>Take the offer.</button></div>";
+c2 = "tw0";
+c3="three";
+
+var chapters = new Array (c1, c2, c3);
+i=0;
+
+function moveStory() {
+
+document.getElementById("body").innerHTML = chapters[i];
+  
+ i++;
+ }
+
+</script>
+ </footer>
+</html>
