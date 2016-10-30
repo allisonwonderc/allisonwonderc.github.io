@@ -38,14 +38,13 @@ img {
     border-radius:20%;
 }
 placard {
-  align:center;
-    content: url(https://docs.google.com/drawings/d/1DgnXjJ6Sp0lmlF0U__xjL6QV2bRKFRVD01eCkz1hSts/pub?w=559&amp;h=241);
-    max-height:5%;
+    content: url(https://docs.google.com/drawings/d/1DgnXjJ6Sp0lmlF0U__xjL6QV2bRKFRVD01eCkz1hSts/pub?w=186&amp;h=80);
+  
 }
 maxwell {
-    align:center;
-  content:url(https://docs.google.com/drawings/d/1Gx-OgBsE0ys5KK7srkGNeiFtfWb8AOMrecyG8mgE5Qs/pub?w=549&amp;h=443);
-    max-height:10%;
+
+  content:url(https://docs.google.com/drawings/d/1Gx-OgBsE0ys5KK7srkGNeiFtfWb8AOMrecyG8mgE5Qs/pub?w=183&amp;h=148);
+
 }
 
 footer {
