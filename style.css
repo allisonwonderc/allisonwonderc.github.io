@@ -20,7 +20,9 @@ a:link{
 }
 a:hover{
     text-decoration: none;
-    background-color:#ffaa20;
+    background-color:black;
+    color:#ffaa20;
+    font-size:125%;
 }
 
 .content {
