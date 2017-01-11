@@ -61,9 +61,6 @@ img {
 
 }
 
-$size-circle: 12.5em;
-$size-thickness: 2.5em;
-$size-inner: $size-circle - $size-thickness * 2;
 
 .pieChart {
   width: $size-circle + 13em;
