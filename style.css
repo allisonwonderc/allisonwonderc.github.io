@@ -1,5 +1,5 @@
 header {
-    background-color: #00BFA5;
+    background-color: #09a7fd;
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ a:link{
 a:hover{
     text-decoration: none;
     background-color:black;
-    color:#00BFA5;
+    color:#1DE9B6;
 }
 
 .content {
@@ -51,7 +51,7 @@ margin-bottom:3%;
 
 
 footer {
-    background-color: #00BFA5;
+    background-color: #09a7fd;
  clear:both;
   bottom: 0;
   left: 0;
