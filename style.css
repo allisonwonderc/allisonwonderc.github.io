@@ -8,21 +8,21 @@ body{
     background-color: #FAFAFA;
 }
 
-body::-moz-selection { /* Code for Firefox */
-    color: #1DE9B6;
-    background: #212121;
-}
-
-body::selection {
-    color: #1DE9B6;
-    background: #212121;
-}
-
 .redacted{
     color:black;
     background-color:black;
     font-weight:bold;
     text-transform:uppercase;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #1DE9B6;
+    background: #212121;
+}
+
+::selection {
+    color: #1DE9B6;
+    background: #212121;
 }
 
 a:link{
