@@ -1,11 +1,21 @@
-
 header {
-    background-color: #1DE9B6;
+    background-color: #00BFA5;
     text-align: center;
 }
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #FAFAFA;
+}
+
+body::-moz-selection { /* Code for Firefox */
+    color: #1DE9B6;
+    background: #212121;
+}
+
+body::selection {
+    color: #1DE9B6;
+    background: #212121;
 }
 
 .redacted{
@@ -21,7 +31,7 @@ a:link{
 a:hover{
     text-decoration: none;
     background-color:black;
-    color:#1DE9B6;
+    color:#00BFA5;
 }
 
 .content {
@@ -41,7 +51,7 @@ margin-bottom:3%;
 
 
 footer {
-    background-color: #1DE9B6;
+    background-color: #00BFA5;
  clear:both;
   bottom: 0;
   left: 0;
