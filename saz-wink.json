@@ -1,14 +1,13 @@
 payload = 
 {
-	"response_type": "in_channel",
-	"text": "Saz got this.",
-  "attachments": [
-        {
-            "fallback": "Saz winking",
-            "title": "Saz winking",
-            "title_link": "",
-            "text": "",
-            "image_url": "http://allison-young/saz-wink.gif",
-        }
-    ]
+	"parse": "full",
+            "response_type": "in_channel",
+            "text": "http://allisonwonderc.github.io/saz-wink.gif",
+            "attachments":[
+                {
+                    "image_url": "http://allisonwonderc.github.io/saz-wink.gif"
+                }
+            ],
+            "unfurl_media":true,
+            "unfurl_links":true
 }
