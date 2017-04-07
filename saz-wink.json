@@ -1,7 +1,7 @@
 {
 	"parse": "full",
             "response_type": "in_channel",
-            "text": "http://allisonwonderc.github.io/saz-wink.gif",
+            "text": "Saz got this.",
             "attachments":[
                 {
                     "image_url": "http://allisonwonderc.github.io/saz-wink.gif"
