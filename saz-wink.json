@@ -1,0 +1,23 @@
+{
+	"response_type": "in_channel",
+	"text": "Saz got this.",
+  "attachments": [
+        {
+            "fallback": "Saz winking",
+            "color": "#36a64f",
+            "author_name": "Allison Young",
+            "author_link": "http://allison-young",
+            "title": "Saz winking",
+            "title_link": "",
+            "text": "",
+            "fields": [
+                {
+                    "title": "Priority",
+                    "value": "High",
+                    "short": false
+                }
+            ],
+            "image_url": "http://allison-young/saz-wink.gif",
+        }
+    ]
+}
