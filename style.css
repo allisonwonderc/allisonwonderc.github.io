@@ -20,11 +20,6 @@ body{
     background: #212121;
 }
 
-::selection {
-    color: #1DE9B6;
-    background: #212121;
-}
-
 a:link{
     color:black;
 }
@@ -33,22 +28,6 @@ a:hover{
     background-color:black;
     color:#1DE9B6;
 }
-
-.content {
-    padding-left: 10%;
-}
-img {
-    width: 100%;
-    border-radius:2em;
-    margin-top: 2%;
-}
-
-.col-md-12{
-text-align: center;
-margin-bottom:3%;
-    
-}
-
 
 footer {
  clear:both;
