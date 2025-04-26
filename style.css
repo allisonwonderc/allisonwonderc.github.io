@@ -1,11 +1,17 @@
 header {
     text-align: center;
-    background-color: #bebebe;
+    background-color: #99e4d1;
 }
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #FAFAFA;
+    background-color: #efefef;
+}
+
+section
+{   
+   padding: 3%;
+   border: 3px double #99e4d1;
 }
 
 .redacted{
@@ -14,14 +20,19 @@ body{
     font-weight:bold;
     text-transform:uppercase;
 }
+.redacted:hover{
+    text-decoration: none;
+    background-color:#222222;
+    color:#99e4d1;
+}
 .quote{
     font-style: oblique;
     font-weight: lighter;
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: #1DE9B6;
-    background: #212121;
+    color: #99e4d1;
+    background: #222222;
 }
 
 a:link{
@@ -29,8 +40,8 @@ a:link{
 }
 a:hover{
     text-decoration: none;
-    background-color:black;
-    color:#1DE9B6;
+    background-color:#222222;
+    color:#99e4d1;
 }
 
 footer {
