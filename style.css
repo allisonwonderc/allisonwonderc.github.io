@@ -1,6 +1,8 @@
 header {
     text-align: center;
     background-color: #99e4d1;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 body{
@@ -12,6 +14,8 @@ section
 {   
    padding: 3%;
    border: 3px double #99e4d1;
+   margin-bottom: 6%;
+   display:inline-block
 }
 
 .redacted{
